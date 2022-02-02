@@ -92,6 +92,11 @@ img:nth-child(even){
 
 }
 
+img:nth-child(even):hover{
+    border: 5px dashed #FF5CBB;
+
+}
+
 img:hover{
     border: 5px dashed #FF5CBB;
 }
