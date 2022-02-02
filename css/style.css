@@ -74,14 +74,6 @@ footer{
     width: 200px;
 }
 
-img:hover{
-    border: 5px dashed #FF5CBB;
-}
-
-img:nth-child(even){
-    border:3px dashed rgb(151, 57, 214);
-
-}
 .special{
     text-align: center;
     display: block;
@@ -93,6 +85,15 @@ img:nth-child(even){
 .special img{
     height: 200px;
     width:250px;
+}
+
+img:nth-child(even){
+    border:3px dashed rgb(151, 57, 214);
+
+}
+
+img:hover{
+    border: 5px dashed #FF5CBB;
 }
 
 
